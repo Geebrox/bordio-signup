@@ -11,7 +11,6 @@ import { NotificationList } from "./Notification";
 import "../assets/tailwind.scss";
 
 const App: React.FC = () => {
-  console.log(process.env);
   return (
     <HelmetProvider>
       <Helmet>
